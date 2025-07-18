@@ -2,7 +2,7 @@ public class longestCommomSubstring{
 
     public static int lcs(String s1 , String s2 ){
         int n = s1.length();
-        int m = s2.length();
+        int m = s2.length();  
 
         int dp[][] = new int [n+1][m+1];
 
